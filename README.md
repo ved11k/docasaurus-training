@@ -1,2 +1,2 @@
 # docasaurus-training
-Doc-as-Code Training version 1
+TWT Docs-as-Code Training version 1
