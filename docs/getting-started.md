@@ -48,6 +48,7 @@ Footnote:
 This is a sentence with a footnote.[^1]
 [^1]: This is the footnote text.
 
+A new sentence for testing.
 
 
 ## 1. Install the MyBank App

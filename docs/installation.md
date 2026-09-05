@@ -2,6 +2,7 @@
 
 **Document Version:** 1.0
 **Purpose:** Guide for installing a banking application on a Windows server (sample template).
+A new sentence for testing.
 
 ## 1. System Requirements
 
