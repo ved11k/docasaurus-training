@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 - [Getting Started with MyBank Mobile App](#getting-started-with-mybank-mobile-app)
   - [Prerequisites](#prerequisites)
   - [Checklist](#checklist)
