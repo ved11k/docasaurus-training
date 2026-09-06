@@ -14,6 +14,8 @@ This document provides sample administrative procedures for managing a banking s
 - Review audit logs
 - Apply software updates
 
+Also refer to the other configuration guide.
+
 ## User Management
 
 | Role | Access |
