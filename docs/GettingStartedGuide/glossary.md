@@ -16,3 +16,5 @@ This glossary defines common terms used in the banking application.
 | **Transaction ID** | A unique number used to identify a banking transaction. |
 | **Available Balance** | The amount currently available for withdrawal or transfer. |
 | **KYC** | A process used by banks to verify a customer's identity. |
+
+New Glossary
