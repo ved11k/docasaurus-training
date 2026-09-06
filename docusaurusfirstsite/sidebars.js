@@ -2,12 +2,12 @@ const sidebars = {
   docsSidebar: [
     'getting-started',
     'installation',
-    'system-configuration'
+    'system-configuration',
     'user-guide',
     'administration',
     'troubleshooting',
-    'submit'
-    ],
+    'submit',
+  ],
 };
- 
+
 export default sidebars;
