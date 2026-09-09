@@ -1,10 +1,16 @@
 ---
 sidebar_position: 2
 ---
-- [Getting Started with MyBank Mobile App](#getting-started-with-mybank-mobile-app)
+
+# Getting Started with MyBank Mobile App
+
+
+  
+- 
   - [Prerequisites](#prerequisites)
   - [Checklist](#checklist)
   - [1. Install the MyBank App](#1-install-the-mybank-app)
+  - [2. Register Your Account](#2-register-your-account)
   - [3. Create Your Login Credentials](#3-create-your-login-credentials)
   - [4. Set Up Your MPIN](#4-set-up-your-mpin)
   - [5. Enable Biometric Login](#5-enable-biometric-login)
@@ -18,11 +24,9 @@ sidebar_position: 2
   - [Security Best Practices](#security-best-practices)
   - [Next Steps](#next-steps)
 
-# Getting Started with MyBank Mobile App
-
 Welcome to **MyBank**, a secure mobile banking application that helps you manage your bank accounts, transfer money, pay bills, and access banking services from your mobile device.
 
-This guide explains how to install the app, sign in, and complete the initial setup.   
+This guide explains how to install the app, sign in, and complete the initial setup.
 
 ---
 
@@ -39,20 +43,25 @@ Before you start, make sure you have:
 
 > **Note:** Your mobile number must be registered with your bank account.
 
->**Note**: Documentation session.
+> **Note:** Documentation session.
 
 ---
+
 ## Checklist
+
 - [ ] Set up the editor
 - [x] Write something in Markdown
 - [ ] Connect a cloud service
 
 Footnote:
+
 This is a sentence with a footnote.[^1]
+
 [^1]: This is the footnote text.
 
 A new sentence for testing.
 
+---
 
 ## 1. Install the MyBank App
 
@@ -65,29 +74,32 @@ To install the application:
 5. Wait for the installation to complete.
 6. Open the application.
 
-
 > **Important:** Download the banking application only from an official app store.
 
-Inline code - `Example`
-```
+Inline code: `Example`
+
 ```python
 name = "John"
+
 message = "Welcome to Markdown practice!"
+
 print(f"Hello {name}!")
 print(message)
 ```
-```
 
 On the screen, select **chat**.
-Press `ctrl + enter`.
 
-Cross Reference Link [Readme](/README.md)
-Web URL [Visit Website](https://www.google.com)
+Press `Ctrl + Enter`.
 
-![Banking App](/docs/Images/BankingImage.jpg)
+Cross Reference Link: README
 
-<img src="Images/BankingImage.jpg" width="200" height="150">
+Web URL: [Visit Website](https://www.google.com)
 
+![Banking App](/img/BankingImage.jpg)
+
+<img src="/img/BankingImage.jpg" width="200" height="150" />
+
+---
 
 ## 2. Register Your Account
 
@@ -103,13 +115,14 @@ If you are using the application for the first time:
 
 After successful verification, you can create your login credentials.
 
-```
-Python
-Def Fibonacci(n):
-a,b = 0,1
-for_in range(n):
-a,b=b,a+b
-return a
+```python
+def fibonacci(n):
+    a, b = 0, 1
+
+    for _ in range(n):
+        a, b = b, a + b
+
+    return a
 ```
 
 ---
@@ -194,11 +207,11 @@ After signing in, the **Dashboard** displays your banking information.
 | Services | Request banking services |
 | Profile | Manage your personal settings |
 
-|Name|Sports|Location|
-|:---:|:---:|:---:|
-|Saching|Caricket|Mumbai|
-|Paes|Tennis|Chennai|
-|PT Usha|Running|Bangaluru|
+| Name | Sports | Location |
+| :---: | :---: | :---: |
+| Sachin | Cricket | Mumbai |
+| Paes | Tennis | Chennai |
+| PT Usha | Running | Bengaluru |
 
 ---
 
@@ -212,15 +225,13 @@ To transfer money:
 4. Enter the transfer amount.
 5. Select **Continue**.
 6. Review the transaction details.
-   1. check nested level 1
-   2. check nested level 1
-      1. check nested level 2
+   1. Check nested level 1
+   2. Check nested level 1
+      1. Check nested level 2
 7. Select **Confirm**.
 8. Enter the OTP or MPIN when prompted.
 
 A confirmation message appears after the transaction is completed.
-
-
 
 ---
 
@@ -231,11 +242,11 @@ A confirmation message appears after the transaction is completed.
 Try the following:
 
 - Check your mobile network connection.
-  - nested level 1
-    - nested level 2
-      - nested level 3
-        - nested level 4
-          - nested level 5
+  - Nested level 1
+    - Nested level 2
+      - Nested level 3
+        - Nested level 4
+          - Nested level 5
 - Verify your registered mobile number.
 - Wait for a few minutes.
 - Select **Resend OTP**.
@@ -266,7 +277,7 @@ If the problem continues, contact customer support.
 Follow these recommendations to keep your account secure:
 
 - Never share your OTP, MPIN, or password.
-- Do not save banking passwords in shared devices.
+- Do not save banking passwords on shared devices.
 - Avoid banking over public Wi-Fi.
 - Always sign out after completing your banking activities.
 - Keep your banking application updated.
@@ -278,15 +289,16 @@ Follow these recommendations to keep your account secure:
 
 Now that your account is configured, you can learn how to:
 
-- [Transfer Money](transfer-money.md)
-- [Add a Beneficiary](add-beneficiary.md)
-- [Pay Bills](pay-bills.md)
-- [Open a Fixed Deposit](fixed-deposit.md)
-- [Manage Your Profile](manage-profile.md)
+- Transfer Money
+- Add a Beneficiary
+- Pay Bills
+- Open a Fixed Deposit
+- Manage Your Profile
 - [Troubleshoot Common Issues](troubleshooting.md)
 
-For additional information, see the 
-[User Guide](/docs/user-guide.md)
-[Admin Guide](/docs/administration.md)
-[Installation Guide](/docs/installation.md)
-[Troubleshooting Guide](/docs/troubleshooting.md)
+For additional information, see:
+
+- [User Guide](./user-guide.md)
+- [Admin Guide](./administration.md)
+- [Installation Guide](./installation.md)
+- [Troubleshooting Guide](./troubleshooting.md)
